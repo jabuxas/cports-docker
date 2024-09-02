@@ -1,0 +1,9 @@
+services:
+  cports:
+    build: .
+    stdin_open: true
+    tty: true
+    user: user
+    privileged: true
+    volumes:
+      - ${CPORTS_REPO}:/cports
