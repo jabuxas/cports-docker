@@ -1,6 +1,6 @@
 services:
   cports:
-    build: .
+    image: git.jabuxas.xyz/jabuxas/cports:latest
     stdin_open: true
     tty: true
     user: user
